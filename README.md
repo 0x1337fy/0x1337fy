@@ -6,15 +6,14 @@
 
 </br>
 
-<picture>
-<img alt="Profile Views" src="https://komarev.com/ghpvc/?username=0x1337fy&label=Profile+Views" />
-</picture>
+<picture><img alt="Profile Views" src="https://komarev.com/ghpvc/?username=0x1337fy&label=Profile+Views" /></picture>
+&nbsp;
+<picture><img alt="Profile Views" src="https://img.shields.io/github/stars/0x1337fy" /></picture>
 &nbsp;
 <a href="https://github.com/0x1337fy?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/0x1337fy" /></a>
 &nbsp;
-<a href="https://github.com/0x1337fy?tab=stars"><img alt="Stars" src="https://img.shields.io/github/stars/0x1337fy" /></a>
-&nbsp;
 <a href="https://x.com/azisalvriyanto"><img alt="X Account" src="https://img.shields.io/twitter/follow/azisalvriyanto" /></a>
+
 </div>
 
 </br>
@@ -22,7 +21,7 @@
 With a robust background in 👨‍💻 Full-stack development,
 I'm a proven leader adept at steering teams and meticulously 🐳 analyzing client needs to craft comprehensive project specifications.
 I thrive on fostering 💞️ collaborative environments, where innovative ideas flow freely 🌱, driving creative problem-solving and 🌿 continual improvement.
-A significant thing is when 🕺 my ability to keep collaborating with others to solve problems 🌻
+A significant thing is when 🕺 my ability keeps collaborating with others to solve problems 🌻
 
 > [!TIP]
 > Let's have a cup of coffee ☕, I'm always open to learning 💡 new things and discussing crazy ideas.
