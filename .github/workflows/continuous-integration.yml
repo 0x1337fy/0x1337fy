@@ -9,7 +9,7 @@ on:
 
 env:
   TZ: Asia/Jakarta
-  EMOJI_CHEAT_SHEETS: "👻,😻,💕,💥,🧞,💃,🐣,🐉,🦕,🦖,🐳,🐬,🦋,🌼,🌱,🌿,🍀,🍃,🍻,🛫,🪂,🚀,🌟,✨,⚡,🔥,🎉"
+  EMOJI_CHEAT_SHEETS: "👻,😻,💕,🤍,💨,🧚,🧜‍♀️,🧞,💃,🐣,🐉,🦕,🦖,🐳,🐬,🦋,🌻,🌼,🌱,🌿,🍀,🍃,🍻,🛫,🪂,🚀,🌟,✨,⚡,🔥,🎉"
 
 jobs:
   build:
@@ -32,8 +32,7 @@ jobs:
 
       - name: Check if archive branch exists
         run: |
-          git fetch origin
-          if git show-ref --verify --quiet refs/remotes/origin/archive; then
+          if git ls-remote --heads origin archive > /dev/null; then
             echo "Branch exists."
             echo "BRANCH_EXISTS=true" >> $GITHUB_ENV
           else
@@ -50,12 +49,11 @@ jobs:
       - name: Checkout archive branch
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           ref: archive
 
       - name: Pull changes form main branch
         run: |
-          git pull origin main --no-edit
+          git pull origin main --allow-unrelated-histories --strategy-option=theirs --no-edit
 
       - name: Check if images directory exists
         run: |
